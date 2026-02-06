@@ -1,0 +1,32 @@
+[project]
+name = "Pandibuy"
+version = "0.1.0"
+description = "Herramienta de presupuestos e inversión para emprenderores, freelancers y pymes. desarrollada por Daglas."
+readme = "README.md"
+
+requires-python = ">=3.9"
+dependencies = [
+    "flet>=0.21.0",
+]
+
+[tool.flet]
+icon = "icon.png"
+app-name = "Pandibuy"
+product-name = "Pandibay"
+executable-name = "Pandibuy"
+org-domain = "daglas.com"
+org-name = "Daglas"
+
+[tool.flet.windows]
+company-name = "Daglas Tech"
+copyright = "Copyright © 2026"
+
+[tool.flet.web]
+route-url-strategy = "path"
+
+[tool.flet.android]
+package-name = "com.daglas.pandibay" # Identificador único obligatorio
+executable-name = "Pandibuy"
+build-number = "1"
+version = "1.0.0"
+icon = "icon.png"
